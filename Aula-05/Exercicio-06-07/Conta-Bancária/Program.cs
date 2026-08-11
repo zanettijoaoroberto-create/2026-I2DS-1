@@ -64,7 +64,7 @@
         public string Banco {get; set;}
         public int Agencia {get; set;}
         public int Conta {get; set;}
-        public double SaldoAtual {get;set;}
+        public double SaldoAtual {get; private set;}
 
         public void Depositar(double Valor)
         {
